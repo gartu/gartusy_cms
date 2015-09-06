@@ -1,0 +1,508 @@
+html{
+	font-family:Trebuchet MS;
+}
+
+body{
+	margin:0px;
+	padding:0px;
+	color:#dceef2;
+}
+
+/* gestion de la décomposition du site */
+.cMain{
+	margin:auto;
+	width:80%;
+	min-width: 1050px;
+}
+
+.cHeader{
+	position:relative;
+	padding-top:15px;
+	padding-bottom:5px;
+	text-align:center;
+	background-color:#dceef2;
+	color:#414244;
+}
+
+/* gestion des boutons de tête */
+.cHeader a#adm_btn1{
+	position:absolute;
+	left:0px;
+	top:0px;
+	color: #262722;
+	text-decoration: none;
+}
+
+.cHeader a#adm_btn2{
+	position:absolute;
+	left:0px;
+	top:20px;
+	color: #262722;
+	text-decoration: none;
+}
+
+.cHeader .buttons{
+	position:absolute;
+	right:0px;
+	top:0px;
+}
+
+.cHeader .buttons #home{
+	display:block;
+	float:left;
+	height:22px;
+	width:23px;
+	margin-top:5px;
+	margin-left:5px;
+	background-image:url("/Applications/Backend/Templates/img/home.png");
+}
+
+.cHeader .buttons #home:hover{
+	background-image:url("/Applications/Backend/Templates/img/home_hover.png");
+}
+
+.cHeader .buttons #back{
+	display:block;
+	float:left;
+	height:22px;
+	width:29px;
+	margin-left:5px;
+	margin-top:5px;
+	background-image:url("/Applications/Backend/Templates/img/back.png");
+}
+
+.cHeader .buttons #back:hover{
+	background-image:url("/Applications/Backend/Templates/img/back_hover.png");
+}
+
+.cHeader .buttons #next{
+	display:block;
+	float:left;
+	height:22px;
+	width:29px;
+	margin-left:5px;
+	margin-top:5px;
+	background-image:url("/Applications/Backend/Templates/img/next.png");
+}
+
+.cHeader .buttons #next:hover{
+	background-image:url("/Applications/Backend/Templates/img/next_hover.png");
+}
+
+.cHeader .buttons #save{
+	display:block;
+	float:left;
+	height:22px;
+	width:22px;
+	margin-left:5px;
+	margin-top:5px;
+	background-image:url("/Applications/Backend/Templates/img/save.png");
+}
+
+.cHeader .buttons #save:hover{
+	background-image:url("/Applications/Backend/Templates/img/save_hover.png");
+}
+
+.cHeader .buttons select{
+	margin-top:10px;
+	width:118px;
+}
+
+.cMainBody{
+	height: 100%;
+	position:relative;
+}
+
+.cLeftSide{
+	display: inline-block;
+	background-color: #cad3d8;
+	width: 20%;
+	position:absolute;
+	margin-right:10px;
+	min-width: 150px;
+	max-width: 220px;
+	min-height: 500px;
+}
+
+.cLeftSide h3{
+	display:inline-block;
+	height:30px;
+	text-align: center;
+	margin:auto;
+	width: 100%;
+	padding:0px;
+	padding-top:5px;
+	margin-bottom:3px;
+	background-color:#819fa7;
+}
+
+.cRightSide{
+	display: inline-block;
+	position:absolute;
+	margin-left:21%;
+	width:79%;
+	background-color:#819fa7;
+}
+
+.cTopMenu{
+	height:35px;
+	color:#262722;
+	background-color:#cad3d8;
+	margin-bottom:3px;
+}
+
+.cTopMenu a{
+	color:#262722;
+}
+
+.cBody{
+	height:100%;
+	min-height:500px;
+	padding:10px;
+	padding-top:20px;
+}
+
+.cBody a{
+	color:#262722;
+	text-decoration: none;
+}
+
+.cBody a:hover{
+	color:#cad3d8;
+}
+
+.cBody a.file{
+	position:relative;
+}
+
+.clear{
+	border:0;
+	clear:both;
+}
+
+
+/* menu latéral des pages */
+ul.pagesMenu{
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+}
+
+ul.pagesMenu li{
+	overflow: hidden;
+	text-align:center;
+	width: 100%;
+	background-image:url("/Applications/Backend/Templates/img/puce.png");
+	background-repeat: no-repeat;
+}
+
+ul.pagesMenu a{
+	transition:background 1.1s;
+	padding-top:8px;
+	display:block;
+	color:#262722;
+	text-decoration:none;
+	min-width:100px;	
+	padding-right:5px;
+	padding-left:5px;
+	height:27px;
+}
+
+ul.pagesMenu a:hover, ul.pagesMenu a.selectedMenu{
+	background-color:#819fa7; /* à tester avec #819fa7 */
+}
+
+ul.pagesMenu ul li a:hover, ul.pagesMenu ul a.selectedMenu{
+	background-color:#828385; /* à tester avec #819fa7 */
+}
+
+
+/* sous-menu latéral des pages */
+ul.pagesMenu ul{
+	margin:0px;
+	padding:0px;
+	margin-left:35px;
+}
+
+ul.pagesMenu ul li{
+	overflow: hidden;
+	padding-top:0px;
+	height: 35px;
+	height: 100%;
+	list-style-type:none;
+	background-image:url("/Applications/Backend/Templates/img/puce.png");
+	background-repeat: no-repeat;
+}
+
+
+/* menu central */
+ul.menu{
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+}
+
+ul.menu li{
+	position:relative;
+	text-align:center;
+	float:left;
+}
+
+ul.menu a{
+	transition:background 1.1s;
+	padding-top:8px;
+	display:block;
+	text-decoration:none;
+	min-width:100px;
+	padding-right:15px;
+	padding-left:15px;
+	height:27px;
+}
+
+ul.menu a:hover{
+	background-color:#828385;
+}
+
+/* sous-menu central */
+ul.menu ul{
+	margin:0px;
+	top:0px;
+	width: 100%;
+	padding:0px;
+	display:none;
+	position:absolute;
+	list-style-type:none;
+}
+
+ul.menu ul li{
+	float:none;
+	background-color:#cad3d8;
+}
+
+ul.menu li:hover ul{
+	display:block;
+}
+
+
+/* apparence des gestionnaires de contenu */
+.textarea{
+	float:left;
+	width: 100%;
+	color:black;
+	background-color:white;
+}
+
+h2{
+	margin-top:0px;
+}
+
+.adm_menu{
+	padding-bottom:20px;
+}
+
+
+.adm_content{
+	padding-top:20px;
+}
+
+/* apparence des formulaires */
+.separator{
+	height:3px;
+	background-color:#cad3d8;
+	border:none;
+}
+
+label.alignment{
+	display:block;
+	width:120px;
+	float:left;
+}
+
+div.textarea{
+	font-family:arial;
+}
+
+div.formContent{
+	max-width: 760px;
+	width: 100%;
+}
+
+div.mediumRow{
+	width:618px;
+}
+
+div.fullRow{
+	width:100%;
+}
+
+div.formField{
+	display:inline-block;
+	float:left;
+	margin-right:20px;
+	min-height:26px;
+}
+
+div.formTextField{
+	display:inline-block;
+	width:100%;
+}
+
+div.formButton button{
+	margin-top:15px;
+	margin-right:20px;
+	min-height:26px;
+}
+
+div.formText span{
+	display: inline-block;
+	font-style:	italic;
+	margin-top:15px;
+	margin-right:20px;
+	min-height:26px;
+}
+
+div.formImg span{
+	display: inline-block;
+	text-decoration: none;
+}
+
+input[type="password"], input[type="text"], select, textarea{
+	width:160px;
+	margin-left:5px;
+}
+
+select{
+	width:164px;
+}
+
+textarea{
+	width:300px;
+}
+
+/* input checkbox */
+
+input[type="checkbox"]{
+	display:none;
+}
+
+.checkbox {
+	width: 20px;
+	margin: 20px auto;
+	position: relative;
+	top:5px;
+}
+
+label.checkboxCaption{
+	top:5px;
+	position: relative;
+	margin-left:20px;
+	padding-left:5px;
+	cursor:pointer;
+}
+
+
+.checkbox label.checkboxStyle {	
+	position: absolute;
+	cursor:pointer;
+	width: 20px;
+	height: 20px;
+	top: 0;
+	border-radius: 4px;
+
+	-webkit-box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0,0,0,0.5);
+	-moz-box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0,0,0,0.5);
+	box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0,0,0,0.5);
+	background: #fcfff4;
+
+	background: -webkit-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+	background: -moz-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+	background: -o-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+	background: -ms-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+	background: linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#b3bead',GradientType=0 );
+}
+
+
+.checkbox label.checkboxStyle:after {
+	opacity: 0;
+	content: '';
+	position: absolute;
+	width: 9px;
+	height: 5px;
+	background: transparent;
+	top: 4px;
+	left: 4px;
+	border: 3px solid #333;
+	border-top: none;
+	border-right: none;
+
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+
+.checkbox label.checkboxStyle:hover::after {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+	filter: alpha(opacity=30);
+	opacity: 0.5;
+}
+
+.checkbox input[type=checkbox]:checked + label.checkboxStyle:after {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+/* fin gestion checkbox */
+
+
+.error{
+	color:#262722;
+	padding-left:25px;
+	background-image:url("/Web/images/error.png");
+	background-repeat:no-repeat;
+}
+
+.invisible{
+	display:none;
+}
+
+button{
+	cursor: pointer;
+	border:none;
+	background-color:#dceef2;
+	padding-top:4px;
+	padding-bottom:4px;
+	padding-right:7px;
+	padding-left:7px;
+	margin-bottom:10px;
+	margin-left:0px;
+	margin-right:0px;
+	transition:background 0.4s;
+}
+
+button:hover{
+	background-color:#cad3d8;
+}
+
+
+button.deleteButton{
+	position:absolute;
+	right:8px;
+	top:110px;
+}
+
+button.deleteButton.newsSubject{
+	position:relative;
+	top:-27px;
+	left:310px;
+}
+
+button.deleteButton.file{
+	position:relative;
+	top:-27px;
+	left:310px;
+}
+

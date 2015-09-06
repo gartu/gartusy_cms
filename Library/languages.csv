@@ -1,0 +1,162 @@
+language;fr;en
+january;Janvier;January
+february;Février;February
+march;Mars;March
+april;Avril;April
+may;Mai;May
+june;Juin;June
+july;Juillet;July
+august;Août;August
+september;Septembre;September
+october;Octobre;October
+november;Novembre;November
+december;Décembre;December
+connection;Connexion;Login
+disconnection;Déconnexion;Logout
+treatment;Traitement en cours..;Treatment in progress
+pwd_required;Vous devez choisir un mot de passe;You have to choose a password
+wrong_pwd;Le mot de passe est erroné;Wrong password
+invalid_connection;Nom d'utilisateur ou mot de passe invalide;Invalid username or password
+disconnection_success;Déconnexion réussie;Logout successful
+existing_login;Ce login existe déjà;Login already exists
+pwd_not_identical;Les mots de passe ne sont pas identiques;Password not identical
+pwd_requird;Un mot de passe est obligatoire;Password required
+message;Message;Message
+manage_admin;Gestion utilisateur;Manage user
+no_message; ; 
+disconnection_progress;Déconnexion en cours;Logout in progress
+add;Ajouter;Add
+modify;Modifier;Modify
+apply;Appliquer;Apply
+send;Envoyer;Send
+delete_confirm;Etes-vous certain de vouloir supprimer ce contenu ?;Do you really want to delete this content ?
+delete_button;Supprimer ce contenu;Remove this content
+delete_completed;Suppression effectuée;Delete operation completed
+no_rights;Aucun droit;No rights
+login;Nom d'utilisateur;Login
+name;Nom;Name
+note;Note;Note
+description;Description;Description
+mail;Mail;Mail
+wrong_captcha;Captcha erroné;Wrong captcha
+newsNview;News;News and Views
+file;Fichier;File
+image_right;Image à droite;Image right
+image_left;Image à gauche;Image left
+no_picture_in_galery;Cette galerie ne comporte aucune image;There isn't any picture in this galery
+form_choice;Choix du formulaire;Select form
+form_list;Liste des formulaires;Form list
+galery_list;Liste des galeries;Galeries list
+no_form_choice;Aucun formulaire déjà existant;No form already created
+galery_choice;Choix de la galerie;Select galery
+no_galery_choice;Aucune galerie existante;No galery already created
+receiver;m@il cible;Target m@il
+category;Catégorie;Category
+surname;Nom;Surname
+add_picture;Ajouter une image;Add a picture
+add_file;Ajouter un fichier;Add a file
+remove_picture;Retirer cette image;Remove this picture
+remove_field;Retirer ce champs;Remove this field
+private;Privé;Private
+first_name;Prénom;First name
+module_choice;Choix du module;Module choice
+menu_title;Nom du menu;Menu title
+news_subject;Catégorie;News category
+help_message;Message d'aide;Help message
+page_list;Liste des pages;Pages list
+create_menu;Créer une page;Create a new page
+not_null;Ce champs est requis;This field have to be completed
+pwd;Mot de passe;Password
+create_news;Ajouter une news;Add news
+supp_picture_confirmation;Etes-vous sur de vouloir supprimer cette image ?;Do you really want to delete this picture ?
+create_form;Créer un formulaire;Create form
+create_galery;Créer une galerie;Create galery
+create_news_subject;Ajouter un sujet de news;Add a news subject
+new_pwd;Nouveau mot de passe;New password
+img_upload_last;Merci de remplir le contenu avant d'ajouter une image;Please enter content before image selection
+obligatory;Obligatoire;Obligatory
+confirm_pwd;Confirmer le mot de passe;Confirm password
+title;Titre;Title
+no_files;Il n'y a aucun fichier présent sur le serveur;There is no file uploaded
+field;Champs;Field
+field_type;Type de champs;Field type
+metric;Ordre;Order
+visibility;Visible;Visible
+contact_sent;Merci pour votre message !;Thank you for contacting us !
+content;Contenu;Content
+adding;Ajout;Add
+management;Gestion;Manage
+empty_content;Aucun contenu;No content
+no_content_for_language;Pas de contenu cette langue;No content for this language
+add_submenu;Ajouter un sous-menu;Add a submenu
+add_field;Ajouter un champs;Add new field
+modify_form;Modifier le formulaire;Modify form
+modify_galery;Modifier la galerie;Modify galery
+modify_file_success;Modification des fichiers réussie;Success to modifiy files
+modify_category_success;La catégorie a bien été modifiée;Category successfully modify
+modify_news_success;La news a bien été modifiée;News successfully modify
+modify_user_success;L'utilisateur a bien été modifié;User successfully modify
+modify_pwd_success;Mot de passe changé correctement;Password successfully modify
+modify_text_success;Le texte a bien été modifié;Text successfully modify
+modify_galery_success;La galerie a bien été modifiée;Galery successfully modify
+modify_contact_form_success;Le formulaire de contact a bien été modifié;Contact form successfully modify
+modify_menu_success;La page a bien été modifiée;Page successfully modify
+modify_news_subject_success;Le sujet de news a bien été modifié;News subject successfully modify
+modify_submenu_success;La page a bien été modifiée;Page successfully modify
+add_category_success;La catégorie a bien été ajoutée;Category successfully added
+add_galery_success;La galerie a bien été ajoutée;Galery successfully added
+add_news_success;La news a bien été ajoutée;News successfully added
+add_text_success;Le texte a bien été ajouté;Text successfully added
+add_news_subject_success;Le sujet de news a bien été ajouté;News subject successfully added
+add_user_success;L'utilisateur a bien été ajouté;User successfully added
+add_file_success;Le fichier a bien été ajouté;File successfully added
+add_contact_form_success;Le formulaire de contact a bien été ajouté;Contact form successfully added
+add_menu_success;Ajout d'une page réussi;Page successfully added
+add_submenu_success;Ajout d'une page réussi;Page successfully added
+title_add_category;Ajout d'une catégorie;Add category
+title_add_file;Ajout d'un fichier;Add file
+title_add_news;Ajout d'une news;Add news
+title_add_text;Ajout d'un texte;Add text
+title_add_user;Ajout d'un utilisateur;Add user
+title_add_galery;Ajout d'une galerie;Add a galery
+title_add_menu;Ajout d'une page;Add page
+title_add_contact_form;Création d'un formulaire de contact;Add contact form
+title_add_news_subject;Ajout d'un sujet de news;Add news subject
+title_add_submenu;Ajout d'un sous-menu;Add submenu
+title_modify_category;Modification d'une catégorie;Modifying category
+title_modify_user;Modification d'un utilisateur;Modifying user
+title_modify_news;Modification d'une news;Modifying news
+title_modify_galery;Modification d'une galerie photo;Modifying galery
+title_modify_text;Modification d'un texte;Text modification
+title_modify_news_subject;Modification des sujets de news;News subject modification
+title_modify_pwd;Modification de mot de passe;Password modification
+title_modify_menu;Modification d'une page;Modifying a page
+title_modify_submenu;Modification d'une page;Modifying a page
+title_manage_galery;Gestion des galeries;Galeries management
+title_manage_files;Gestion des fichiers;Files management
+title_manage_news_subject;Gestion des catégories de news;News subject management
+title_manage_contact_form;Gestion de formulaire;Contact forms management
+title_manage_news;Gestion des news;News management
+title_category_list;Liste des catégories;Category list
+title_modify_contact_form;Modification d'un formulaire de contact;Modifying a contact form
+title_text_list;Liste des textes;Texts list
+title_user_list;Liste des utilisateurs;Users list
+title_news_list;Liste des news;News list
+title_news;News;News
+title_user_info;Informations utilisateur;User informations
+text_page_information;Information de la page;Page information
+text_page_content;Contenu de la page;Page content
+subtitle;Sous-titre;Subtitle
+normal;Normal;Normal
+alert_module_modification;Attention! La modification du type de contenu de la page entrainera la perte intégrale des données de celle-ci.;Warning! This modification will cause the complete loss of the current data.
+files;Fichiers;Files
+texte;Texte;Text
+connexion;;
+deconnexion;;
+divers;;
+formulaire;Formulaire;Form
+galery;Galerie;Galery
+news;News;News
+news-category;Catégorie de news;News category
+utilisateurs;;
+

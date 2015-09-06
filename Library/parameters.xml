@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<definition>
+	<!-- partie général -->
+	<define param="defaultLanguage" value="en" />
+
+	<define param="limitUsers" value="15" />
+	<define param="limitCategories" value="2" />
+
+	<define param="numberNews" value="3" />
+	<define param="newsPerPage" value="2" />
+	<define param="newsPerCategory" value="3" />
+	<define param="numberCharsPreviews" value="460" />
+
+	<define param="defaultTitleBackend" value="Admin JSP" />
+	<define param="defaultTitleFrontend" value="JSP" />
+
+	<define param="dao" value="\Library\PDOFactory::getMysqlConnection" />
+	<define param="redirectionOnLogin" value="/admin/en/insert-page.html" />
+	<define param="defaultRedirection" value="/admin/en/insert-page.html" />
+	<define param="redirectionOnLogout" value="news.html" />
+	<define param="redirectToLogin" value="/fr/connexion.html" />
+	
+	<!-- paramètres utilisé pour les formulaires de contacts -->
+	<define param="contactForm_fromText" value="contact form" />
+	<define param="contactForm_fromMail" value="auto@mail.com" />
+	<define param="contactForm_reply" value="noreply@serv.com" />
+
+	<!-- chemin relatif depuis les dossier 'Web' -->
+	<define param="urlImage" value="../Pictures/Images/" />
+	<define param="urlThumbnail" value="../Pictures/Thumbnails/" />
+	<define param="filesDirectory" value="../Files/" />
+		
+	<!-- partie relative à l'administration -->
+	<define param="admNumberDisplayedObject" value="15" />
+
+	<module param="Texte" value="0" />
+	<module param="News" value="1" />
+	<module param="Mixte" value="2" />
+	<module param="Connexion" value="3" />
+<!--
+	<menu param="Gérer news" value="list-news.html" />
+	<menu param="Gérer mixte" value="list-mixte.html" />
+	<menu param="Gérer utilisateurs" value="list-user.html" />
+	<menu param="Gérer catégories" value="list-categorie.html" />
+	<menu param="Ajout news" value="insert-news.html" />
+	<menu param="Ajout mixte" value="insert-mixte.html" />
+	<menu param="Ajout utilisateurs" value="insert-user.html" />
+	<menu param="Ajout catégories" value="insert-categorie.html" />
+-->
+	<menu param="Deconnexion" value="\fr\deconnexion.html" />
+</definition>

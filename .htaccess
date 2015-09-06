@@ -1,0 +1,9 @@
+RewriteEngine on
+RewriteRule ^files/(.*)$ Files/$1 [L]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ Web/$1
+RewriteRule ^$ Web/$1
+
+#@__HCP_END__@#
+# Anything after the comment above is left alone

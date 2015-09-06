@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<routes>
+	<route url="/([a-z]+)/contenu-divers-([0-9]+)\.html" module="MixedContent" action="show" vars="language,id" />
+
+	<route url="/([a-z]+)/contenu-texte-([0-9]+)\.html" module="SimpleText" action="show" vars="language,id" />
+
+	<route url="/([a-z]+)/contenu-news-([0-9]+)\.html" module="News" action="show" vars="language,id" />
+	<route url="/([a-z]+)/liste-news\.html" module="News" action="index" vars="language" />
+	<route url="/([a-z]+)/liste-news-rapide\.html" module="News" action="tease" vars="language" />
+	<route url="/([a-z]+)/liste-news-([0-9]+)\.html" module="News" action="index" vars="language,id" />
+
+	<route url="/([a-z]+)/liste-news-category\.html" module="NewsSubject" action="index" vars="language" />
+	<route url="/([a-z]+)/liste-news-category-([0-9]+)\.html" module="NewsSubject" action="index" vars="language,id" />
+	<route url="/([a-z]+)/liste-news-category-([0-9]+)-([0-9]+)\.html" module="NewsSubject" action="index" vars="language,id,page" />
+
+	<route url="/([a-z]+)/liste-galery-([0-9]+)\.html" module="Galery" action="index" vars="language,id" />
+
+	<route url="/([a-z]+)/liste-formulaire-([0-9]+)\.html" module="ContactForm" action="index" vars="language,id" />
+
+	<route url="/([a-z]+)/contenu-utilisateurs-([0-9]+)\.html" module="User" action="show" vars="language,id" />
+	<route url="/([a-z]+)/liste-utilisateurs\.html" module="User" action="index" vars="language" />
+	<route url="/([a-z]+)/liste-utilisateurs-([0-9]+)\.html" module="User" action="index" vars="language,page" />
+	<route url="/([a-z]+)/update-password\.html" module="User" action="updatePassword" vars="language" />
+
+	<route url="/connexion\.html" module="Connection" action="index" vars="language" />
+	<route url="/([a-z]+)/connexion\.html" module="Connection" action="index" vars="language" />
+	<route url="/([a-z]+)/deconnexion\.html" module="Disconnection" action="index" vars="language" />
+</routes>

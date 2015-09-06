@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<routes>
+	<route url="/admin/([a-z]+)/liste-news\.html" module="News" action="index" vars="language" />
+	<route url="/admin/([a-z]+)/liste-news-([0-9]+)\.html" module="News" action="index" vars="language,page" />
+	<route url="/admin/([a-z]+)/news-([0-9]+)\.html" module="News" action="update" vars="language,id" />
+	<route url="/admin/([a-z]+)/insert-news\.html" module="News" action="insert" vars="language" />
+	
+	<route url="/admin/([a-z]+)/liste-news-category\.html" module="NewsSubject" action="index" vars="language" />
+	<route url="/admin/([a-z]+)/liste-news-category-([0-9]+)\.html" module="NewsSubject" action="update" vars="language,id" />
+	<route url="/admin/([a-z]+)/insert-news-category\.html" module="NewsSubject" action="insert" vars="language" />
+	<route url="/admin/([a-z]+)/modify-news-category\.html" module="NewsSubject" action="index" vars="language" />
+	<route url="/admin/([a-z]+)/modify-news-category-([0-9]+)\.html" module="NewsSubject" action="update" vars="language,id" />
+
+	<route url="/admin/([a-z]+)/liste-texte\.html" module="SimpleText" action="index" vars="language" />
+	<route url="/admin/([a-z]+)/liste-texte-([0-9]+)\.html" module="SimpleText" action="index" vars="language,page" />
+	<route url="/admin/([a-z]+)/contenu-texte-([0-9]+)\.html" module="SimpleText" action="update" vars="language,id" />
+	<route url="/admin/([a-z]+)/insert-text\.html" module="SimpleText" action="insert" vars="language" />
+
+	<route url="/admin/([a-z]+)/liste-utilisateurs\.html" module="User" action="index" vars="language" />
+	<route url="/admin/([a-z]+)/liste-utilisateurs-([0-9]+)\.html" module="User" action="index" vars="language,page" />
+	<route url="/admin/([a-z]+)/contenu-utilisateur-([a-zA-Z0-9]+)\.html" module="User" action="update" vars="language,id" />
+	<route url="/admin/([a-z]+)/insert-utilisateurs\.html" module="User" action="insert" vars="language" />
+
+	<route url="/admin/([a-z]+)/liste-categorie\.html" module="Category" action="index" vars="language" />
+	<route url="/admin/([a-z]+)/liste-categorie-([0-9]+)\.html" module="Category" action="index" vars="language,page" />
+	<route url="/admin/([a-z]+)/contenu-categorie-([0-9]+)\.html" module="Category" action="update" vars="language,id" />
+	<route url="/admin/([a-z]+)/insert-categorie\.html" module="Category" action="insert" vars="language" />
+
+	<route url="/admin/([a-z]+)/page-([0-9]+)\.html" module="Menu" action="update" vars="language,id" />
+	<route url="/admin/([a-z]+)/insert-page\.html" module="Menu" action="insert" vars="language" />
+
+	<route url="/admin/([a-z]+)/manage-formulaire\.html" module="ContactForm" action="index" vars="language" />
+	<route url="/admin/([a-z]+)/liste-formulaire\.html" module="ContactForm" action="show" vars="language" />
+	<route url="/admin/([a-z]+)/liste-formulaire-([0-9]+)\.html" module="ContactForm" action="show" vars="language,idForm" />
+	<route url="/admin/([a-z]+)/formulaire-([0-9]+)\.html" module="ContactForm" action="update" vars="language,idForm" />
+	<route url="/admin/([a-z]+)/formulaire-([0-9]+)-(.+)\.html" module="ContactForm" action="update" vars="language,idForm,params" />
+	<route url="/admin/([a-z]+)/insert-form\.html" module="ContactForm" action="insert" vars="language" />
+	<route url="/admin/([a-z]+)/insert-form-(.+)\.html" module="ContactForm" action="insert" vars="language,params" />
+
+	<route url="/admin/([a-z]+)/manage-galery\.html" module="Galery" action="index" vars="language" />
+	<route url="/admin/([a-z]+)/liste-galery\.html" module="Galery" action="show" vars="language" />
+	<route url="/admin/([a-z]+)/liste-galery-([0-9]+)\.html" module="Galery" action="show" vars="language,idGalery" />
+	<route url="/admin/([a-z]+)/galery-([0-9]+)\.html" module="Galery" action="update" vars="language,idGalery" />
+	<route url="/admin/([a-z]+)/insert-galery\.html" module="Galery" action="insert" vars="language" />
+
+	<route url="/admin/([a-z]+)/insert-file\.html" module="Files" action="insert" vars="language" />
+	<route url="/admin/([a-z]+)/manage-files\.html" module="Files" action="update" vars="language" />
+
+	<route url="/admin/([a-z]+)/page-([0-9]+)-([0-9]+)\.html" module="Submenu" action="update" vars="language,id,subId" />
+	<route url="/admin/([a-z]+)/insert-submenu-([0-9]+)\.html" module="Submenu" action="insert" vars="language,id" />
+
+	<!-- gestion des route visant à supprimer des données -->
+	<route url="/admin/([a-z]+)/delete-galery-([0-9]+)\.html" module="Galery" action="delete" vars="language,id" />
+	<route url="/admin/([a-z]+)/delete-form-([0-9]+)\.html" module="ContactForm" action="delete" vars="language,id" />
+	<route url="/admin/([a-z]+)/delete-menu-([0-9]+)\.html" module="Menu" action="delete" vars="language,id" />
+	<route url="/admin/([a-z]+)/delete-submenu-([0-9]+)\.html" module="Submenu" action="delete" vars="language,id" />
+	<route url="/admin/([a-z]+)/delete-text-([0-9]+)\.html" module="SimpleText" action="delete" vars="language,id" />
+	<route url="/admin/([a-z]+)/delete-file-([0-9]+)\.html" module="Files" action="delete" vars="language,num" />
+	<route url="/admin/([a-z]+)/delete-news-([0-9]+)\.html" module="News" action="delete" vars="language,id" />
+	<route url="/admin/([a-z]+)/delete-news-subject-([0-9]+)\.html" module="NewsSubject" action="delete" vars="language,id" />
+
+	<route url="/admin/([a-z]+)/contenu-diverse-([0-9]+)\.html" module="MixedContent" action="show" vars="language,id" />
+	<route url="/admin/([a-z]+)/connexion\.html" module="Connection" action="index" vars="language" />
+	<route url="/admin/([a-z]+)/deconnexion\.html" module="Disconnection" action="index" vars="language" />
+	<route url="/admin/deconnexion\.html" module="Disconnection" action="index" vars="" />
+</routes>
