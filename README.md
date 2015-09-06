@@ -1,2 +1,2 @@
 # gartusy_cms
-alpha homemade cms
+Beta homemade cms
